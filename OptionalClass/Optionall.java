@@ -1,5 +1,5 @@
 import java.util.Optional; // Implementação da optional class
-public class Main {  
+public class Optionall {  
     public static void main(String[] args) {  
         String[] str = new String[10];  
         Optional<String> checkNull = Optional.ofNullable(str[5]);
