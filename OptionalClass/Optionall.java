@@ -5,7 +5,7 @@ public class Optionall {
         Optional<String> checkNull = Optional.ofNullable(str[5]);
         //Verifica se é nulo, então este método retorna se é vazio ou não.
                                                     
-        if(checkNull.isPresent()){  // Checa se o valor vazio da classe optinal esta presente 
+        if(checkNull.isPresent()){  // Checa se o valor vazio da classe optional esta presente 
             String stringAula = str[5].toLowerCase();  
             System.out.print(stringAula);  
         }else  
